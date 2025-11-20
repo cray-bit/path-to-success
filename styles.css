@@ -1,0 +1,154 @@
+/* ---CSS BY Caleb Ray--- */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* ---CSS RESET--- */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --- ROOT VARIABLES --- */
+
+:root {
+
+    --Teal : #4CA7C0;
+    --Purple: #484FB7;
+    --Lavender: #6B8FE7;
+    --Yellow: #E9BB57; 
+    --Pink: #D9526F;
+    --Dark-gray: #1E1E1E; 
+    --White: #ffffff; 
+
+    --font-heading: 'Kavoon', 'Comic Sans MS', sans-serif;
+    --font-body: 'Inter', 'Arial', 'sans-serif';
+}
+
+/* --- GLOBAL STYLES (mobile first/small) ---- */
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--Lavender);
+    max-width: 450px;
+    margin: 0 auto;
+
+}
+
+main {
+    background-color: var(--Purple);
+}
+
+header {
+    background-color: var(--Purple);
+    text-align: center;
+    color: var(--White);
+}
+
+nav {
+    background-color: var(--Yellow);
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0 1rem 1rem 1rem;
+}
+
+nav h2 {
+    font-family: var(--font-body);
+    font-size: 1.5em;
+    font-style: italic;
+    color: var(--Dark-gray);
+}
+
+nav a {
+    background-color: var(--White);
+    color: var(--Purple);
+    text-decoration: none;
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.75rem 0;
+}
+
+h1 {
+    font-family: var(--font-heading);
+    font-size: 3em;
+    padding: 2rem 2rem 0 2rem;
+}
+
+header > p {
+    font-style: italic;
+    padding: 1rem;
+}
+
+h2 {
+    font-family: var(--font-heading);
+    font-size: 2em;
+    color: var(--White);
+    padding: 1rem;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: var(--Yellow);
+    padding: 1rem;
+}
+
+h4 {
+    font-size: 1.15em;
+    color: var(--Purple);
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.card {
+    background-color: var(--White);
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem;
+}
